@@ -1,0 +1,26 @@
+body {
+    background-color: lightblue;
+  }
+
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    width: 100%;  
+    opacity: 0.5;
+    background: black;
+    font-size: 20px;
+  }
+
+
+  .button {
+    transition-duration: 0.4s;
+    border-radius: 8px;
+    font-size: 20px
+  }
+  
+  .button:hover {
+    background-color: black; /* Green */
+    color: white;
+  }
