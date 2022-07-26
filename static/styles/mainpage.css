@@ -1,26 +1,74 @@
 body {
-    background-color: lightblue;
-  }
+  background-color: lightblue;
+  font-family: 'Chivo', sans-serif;
+  background-image: url("cow.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  position: relative;
+  height: auto;
+  line-height: normal;
+}
 
 
 .card {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
-    width: 100%;  
-    opacity: 0.5;
-    background: black;
-    font-size: 20px;
-  }
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+  width: 100%;  
+  opacity: 0.5;
+  background: black;
+  font-size: 20px;
+}
 
 
-  .button {
-    transition-duration: 0.4s;
-    border-radius: 8px;
-    font-size: 20px
-  }
-  
-  .button:hover {
-    background-color: black; /* Green */
-    color: white;
-  }
+.button {
+  background-color: #124E78;
+  border: 2px solid #124E78;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: white; 
+  color: #124E78; 
+  border: 2px solid #124E78;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 55px;
+}
+
+#id_rules {
+  margin-top: 25px;
+}
+
+.text-center {
+  margin-top: 55px;
+  vertical-align: center;
+  text-align: center;
+}
+
+.boton_cambiar_pagina {
+  margin-top: 100px;
+  position: relative;
+  left: 5%;
+  background-color: white; 
+  color: #124E78; 
+  border: 2px solid #124E78;
+}
+
+.boton_cambiar_pagina:hover {
+  background-color: #124E78;
+  border: 2px solid #124E78;
+  color: white;
+  cursor: pointer;
+}

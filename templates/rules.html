@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/mainpage.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/mainpage.css') }}">    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Rules</title>
 </head>
 <header>
-    <!-- Background image -->
+    <section>
     <div
       class="p-5 bg-image"
       style="
-        background-image: url('static/styles/cow.jpg');
         height: 400px;
       "
     >
@@ -25,13 +26,13 @@
         </div>
      </div>
 
-     <div>
+     <div id="id_rules">
         <p>1. Each one has to write what they think the majority will answer </p>
         <p>2.The group with the most gets 1 point. If there is a tie between 2 or more answers or everyone gave the same answer, no one gets a point</p>
         <p>3. Whoever has written something different from the others, gets the piggy bank</p>
         <p>4.If there are 2 or more people who wrote something different none gets the pig</p>
         <p>5. First to reach 8 points wins and whoever has the pig at that time gets a punishment</p>
-    </div>
+    
  
 
       
@@ -39,22 +40,15 @@
             <button class="button" type="button" onClick="window.location.href='/'">Back to Game</button>
         </div>
         
- 
+ </div>
     </div>
   </header>
-  
-  <div
-    class="p-5 text-center bg-image"
-    style="
-      background-image: url('static/styles/cow.jpg');
-      height: 400px;
-    "
-  >
-</div>
+
   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   
   </div>
+</section>
   
   </body>
 </html>
